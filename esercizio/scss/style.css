@@ -1,0 +1,35 @@
+.buttons button {
+  background-color: red;
+}
+
+.buttons :hover {
+  background-color: rgb(38, 142, 0);
+  color: white;
+}
+
+header {
+  background-color: #066efd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  color: blueviolet;
+}
+h2 p {
+  background-color: lightgreen;
+}
+
+.centro img {
+  width: 400px;
+  height: 300px;
+}
+
+main {
+  margin: 1em;
+}/*# sourceMappingURL=style.css.map */

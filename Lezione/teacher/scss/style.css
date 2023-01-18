@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.button {
+  padding: 15px 20px;
+}
+
+.btn-primary {
+  background-color: #2d56bc;
+}
+
+.vincenzo {
+  padding: 2px;
+}/*# sourceMappingURL=style.css.map */

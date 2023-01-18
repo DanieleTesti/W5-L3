@@ -1,0 +1,89 @@
+h1 {
+  color: red;
+}
+
+nav {
+  display: block;
+  ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    li {
+      margin-right: 10px;
+    }
+  }
+}
+
+.main {
+  color: white;
+  background-color: navy;
+  p {
+    letter-spacing: 0.5em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    > span {
+      font-weight: 900;
+    }
+  }
+}
+
+/*2) PSEUDO CLASSI INTEGRATE*/
+.main2 {
+  a {
+    color: green;
+    text-decoration: none;
+    &:hover {
+      font-size: 2em;
+    }
+  }
+}
+
+/*3)PROPRIEA ANNIDATE CON PREFISSO COMUNE*/
+.main3 {
+  p {
+    font: {
+      size: 2em;
+    }
+  }
+}
+
+/*4)VARIABILI SASS*/
+$main-padding: 17px;
+$color-primary: red;
+$color-secondary: #640000;
+
+.main2 div {
+  padding-top: $main-padding;
+}
+
+.main3 p {
+  padding-top: $main-padding;
+}
+
+nav ul {
+  padding-top: $main-padding;
+}
+
+.my-container {
+  display: flex;
+  width: 100%;
+  p {
+    font-size: 1.2em;
+    display: block;
+    width: 45%;
+    padding-left: $main-padding;
+    padding-right: $main-padding;
+    border: 1px solid $color-secondary;
+    button {
+      display: block;
+      padding: $main-padding;
+      color: white;
+      border-color: $color-secondary;
+      background-color: $color-primary;
+    }
+  }
+}
+
+.my-title {
+  color: $color-primary;
+}
