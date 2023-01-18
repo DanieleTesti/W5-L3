@@ -1,8 +1,11 @@
 .buttons button {
   background-color: red;
+  border-color: red;
 }
 
 .buttons :hover {
+  transform: rotate(180deg);
+  border-color: rgb(38, 142, 0);
   background-color: rgb(38, 142, 0);
   color: white;
 }

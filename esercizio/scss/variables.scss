@@ -2,7 +2,8 @@ header {
   background-color: #066efd;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 1em;
 }
 
 body {
@@ -21,5 +22,7 @@ h2 {
 }
 
 main {
-  margin: 1em;
+  padding: 1em;
+  background-color: cyan;
+  height: 100%;
 }
